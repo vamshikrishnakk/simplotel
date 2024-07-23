@@ -1,0 +1,154 @@
+.name {
+  color: aqua;
+}
+.img {
+  width: 26px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.list-image {
+  align-self: center;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  height: 50px;
+  align-items: center;
+  background-color: orangered;
+}
+.list-name {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-weight: 900;
+  font-size: 22px;
+}
+.list-image {
+  list-style-type: none;
+}
+.container {
+  background-image: linear-gradient(to right, #f7e9b6, #f58eee);
+  display: flex;
+}
+.img-robin {
+  width: 50%;
+}
+.img-container {
+  width: 100%;
+}
+.text-container {
+  width: 50%;
+  padding: 5%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.heading {
+  font-size: 38px;
+}
+.message {
+  font-size: 18px;
+}
+.button {
+  border: none;
+  width: 48%;
+  height: 50px;
+  background-color: orangered;
+  color: #ffffff;
+}
+.bottom-container {
+  background-image: linear-gradient(to right, #f7e9b6, #f58eee);
+  display: flex;
+  padding: 5%;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+.imagess {
+  width: 50%;
+  display: flex;
+}
+.two-images {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.image-eva {
+  width: 250px;
+  height: 200px;
+  margin: 6px;
+}
+.image-mister {
+  width: 200px;
+}
+.bottom-text-container {
+  background-color: orangered;
+  padding: 5%;
+  font-family: sans-serif;
+  padding-right: 320px;
+}
+.heading1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.heading2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+}
+.click-heading {
+  font-size: 20px;
+}
+.right-arrow {
+  width: 20px;
+  margin-right: 12px;
+  padding: 8px;
+}
+@media screen and (max-width: 576px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .list-name {
+    display: none;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .text-container {
+    width: 90%;
+    order: 2;
+  }
+  .message {
+    margin-bottom: 20px;
+  }
+  .heading {
+    margin-bottom: 10px;
+  }
+  .img-robin {
+    width: 100%;
+    order: 1;
+  }
+  .list-image {
+    align-items: flex-end;
+  }
+  .bottom-container {
+    flex-direction: column;
+  }
+  .imagess {
+    width: 100%;
+    justify-content: center;
+  }
+  .bottom-text-container {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
